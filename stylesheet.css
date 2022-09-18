@@ -101,6 +101,15 @@ nav a:hover {
 
 /* ----- GALLERY ----- */
 
+#gallery h2 {
+    padding-top: 10px;
+    clear: both;
+}
+
+#gallery p {
+    margin: 4px;
+}
+
 /* ----- CONTACT ----- */
 
 form {
@@ -175,19 +184,19 @@ footer {
 
 .TopLeft {
     position: absolute;
-    top: 2px;
+    top: 10px;
     left: 15px;
 }
 
 .BottomLeft {
     position: absolute;
-    bottom: 5px;
+    bottom: 15px;
     left: 15px;
 }
 
-.BottonRight {
+.BottomRight {
     position: absolute;
-    bottom: 5px;
+    bottom: 15px;
     right: 15px;
 }
 
@@ -203,6 +212,6 @@ footer {
 }
 
 #contact {
-    color:#FFFFFF;
+    color: #FFFFFF;
     clear: both;
 }
