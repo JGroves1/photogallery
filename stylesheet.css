@@ -30,6 +30,13 @@ h1, h2 {
 
 h1 {
     color: #007D7B;
+    background-color: #000000;
+    padding: 20px;
+    float: left;
+}
+
+main {
+    clear: both;
 }
 
 p, li {
@@ -38,6 +45,9 @@ p, li {
 
 /* ----- NAV ----- */
 
+nav {
+    float: right;
+}
 nav h2 {
     visibility: hidden;
     height: 0;
@@ -82,6 +92,11 @@ nav a:hover {
 
 #about h2, #about p {
     text-align: right;
+    margin: 4px;
+}
+
+#about div {
+    padding-left: 10px;
 }
 
 /* ----- GALLERY ----- */
@@ -178,8 +193,12 @@ footer {
 
 /* ----- IDS ----- */
 
-#about, #gallery {
+#wrapper {
     background-color: #FFFFFF;
+    display: inline-block;
+}
+
+#about, #gallery {
     padding: 10px;
 }
 
