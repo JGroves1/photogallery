@@ -18,7 +18,7 @@ html {
 
 body {
     width: 1310px;
-    margin:auto;
+    margin: auto;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -70,7 +70,7 @@ nav a:hover {
 }
 
 [href="#top"]:hover {
-    color:#007D7B;
+    color: #007D7B;
     background-color: #FFFFFF;
 }
 
@@ -129,9 +129,30 @@ footer {
 
 /* ----- CLASSES ----- */
 
+.col1 {
+    clear: right;
+    float: left;
+    margin:auto;
+}
+
+.col2 {
+    clear: both;
+}
+
+.col3 {
+    clear: left;
+    float: right;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
 .captionwht, .captionblk {
     font-size: 16px;
     text-transform: uppercase;
+    z-index: 2;
 }
 
 .captionblk {
@@ -140,6 +161,24 @@ footer {
 
 .captionwht {
     color: #FFFFFF;
+}
+
+.TopLeft {
+    position: absolute;
+    top: 2px;
+    left: 15px;
+}
+
+.BottomLeft {
+    position: absolute;
+    bottom: 5px;
+    left: 15px;
+}
+
+.BottonRight {
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
 }
 
 /* ----- IDS ----- */
@@ -151,4 +190,5 @@ footer {
 
 #contact {
     color:#FFFFFF;
+    clear: both;
 }
