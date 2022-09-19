@@ -2,16 +2,17 @@
 
 /* css TOC: 
     GLOBAL -- line 14
-    NAV -- line 
-    ABOUT -- line 
-    GALLERY -- line
-    CONTACT -- line
-    FOOTER -- line
-    CLASSES -- line
-    IDS -- line
+    NAV -- line 47
+    ABOUT -- line 90
+    GALLERY -- line 105
+    CONTACT -- line 116
+    FOOTER -- line 160
+    CLASSES -- line 169
+    IDS -- line 217
 */
 
 /* ----- GLOBAL ----- */
+
 html {
     background-color: #000000;
 }
@@ -48,6 +49,7 @@ p, li {
 nav {
     float: right;
 }
+
 nav h2 {
     visibility: hidden;
     height: 0;
@@ -56,7 +58,7 @@ nav h2 {
 nav li {
     display: inline-flex;
     padding: 15px;
-    margin-left: 65px;;
+    margin-left: 65px;
 }
 
 nav a {
@@ -155,7 +157,6 @@ button {
     margin: 15px 275px;
 }
 
-
 /* ----- FOOTER ----- */
 
 footer {
@@ -177,7 +178,7 @@ footer {
     position: relative;
     background-color:#FFFFFF;
     width: 420px;
-    padding-top: 0%;
+    padding-top: 0;
     margin: 5px;
 }
 
@@ -227,4 +228,5 @@ footer {
 #contact {
     color: #FFFFFF;
     clear: both;
+    margin-bottom: 25px;
 }
